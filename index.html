@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title> 100マス計算の演習プログラム </title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/100-cell_calc.css" />
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/100-cell_calc.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/select.js" charset="utf-8"></script>
+  </head>
+
+  <body onload='init("default");'>
+    <script type="text/javascript" src="js/header.js" charset="utf-8"></script>
+
+    <div class="two-column">
+      <div id="contents">
+        <canvas id="timer" width="140" height="40"></canvas>
+        <canvas id="calc" width="440" height="440">
+          このブラウザではコンテンツを表示できません。
+          別のブラウザで読み込みなおしてください。
+        </canvas>
+      </div>
+      <div id = "result">
+        <div class="inner">
+          <h4>結果がここに表示されます。<h4>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/footer.js" charset="utf-8"></script>
+  </body>
+</html>
